@@ -1,0 +1,80 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "sprint4",
+    "dateExported": "2024-01-08T12:01:04.795Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "76695658-a8bd-4fef-b120-c4c5ed673ad9",
+            "colId": "2a5e8229-1253-42a8-8634-8afced1c192e",
+            "containerId": "",
+            "name": "getAllTasks",
+            "url": "http://localhost:3000/api/todos/allTasks",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-01-08T11:40:39.814Z",
+            "modified": "2024-01-08T11:41:00.971Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a536df11-49e2-417f-b732-217881a03f21",
+            "colId": "2a5e8229-1253-42a8-8634-8afced1c192e",
+            "containerId": "",
+            "name": "addTask",
+            "url": "http://localhost:3000/api/todos",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-01-08T11:43:00.266Z",
+            "modified": "2024-01-08T11:44:05.235Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\": 0.12312312312, \n    \"name\": \"Rust\", \n    \"completed\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "287cda76-2047-4ec6-8f58-cf38653a825a",
+            "colId": "2a5e8229-1253-42a8-8634-8afced1c192e",
+            "containerId": "",
+            "name": "updateTask",
+            "url": "http://localhost:3000/api/todos",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-01-08T11:50:40.749Z",
+            "modified": "2024-01-08T11:56:56.074Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "    {\n        \"id\": 0.53645313438, \n        \"name\": \"PHP\", \n        \"completed\": true\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "dea22ee5-92be-4439-ad7c-1d78d96bf20c",
+            "colId": "2a5e8229-1253-42a8-8634-8afced1c192e",
+            "containerId": "",
+            "name": "deleteTask",
+            "url": "http://localhost:3000/api/todos",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-01-08T11:57:51.112Z",
+            "modified": "2024-01-08T11:59:19.756Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "    {\n        \"id\": 0.0976489403, \n        \"name\": \"C++\", \n        \"completed\": true\n    }",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
